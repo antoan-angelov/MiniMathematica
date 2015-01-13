@@ -108,7 +108,6 @@ public class RPNParser {
             }
         }
         
-
         while(!operators.isEmpty()) {
             if(operators.peek().getType() == MathObject.TYPE_PARENTHESIS_LEFT 
                     || operators.peek().getType() == MathObject.TYPE_PARENTHESIS_RIGHT) {
