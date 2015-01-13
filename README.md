@@ -4,6 +4,8 @@ Java tool for computing mathematical expressions.
 
 Coursework for Data Structures and Algorithms @FMI
 
+It uses RPN (Reverse Polish Notation) and Shunting-yard algorithm.
+
 Supports the following functions:
 * arithmetic - addition (`+`), substraction (`-`), negation (`-`), multiplication (`*`), division (`/`)
 * advanced - exponentiation (either `pow(x, n)` or `x^n`), nth root (`sqrt(x)` or `sqrtn(x, n)`), logarithms (`log(x, n)`)
