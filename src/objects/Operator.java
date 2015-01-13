@@ -1,13 +1,19 @@
 package objects;
 import java.util.ArrayList;
 
+import exceptions.InvalidArgumentsException;
+
 public abstract class Operator extends OperatorBase {
     
     private final static ArrayList<Operator> OPERATORS = new ArrayList<>();
     
     public final static Operator OPERATOR_POWER = new Operator("^", 4, Operator.ASSOCIATIVITY_RIGHT) {
         @Override
-        public double performEval(ArrayList<Double> arguments) {
+        public double performEval(ArrayList<Double> arguments) throws InvalidArgumentsException {
+            if(arguments.get(0) == 0 && arguments.get(1) == 0) {
+                throw new InvalidArgumentsException();
+            }
+            
             return Math.pow(arguments.get(0), arguments.get(1));
         }
     };

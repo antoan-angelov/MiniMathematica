@@ -33,13 +33,13 @@ public class MiniMathematica {
             double result = Calculator.calc(expression);
             System.out.println("Result is " + result);
         } catch (MismatchedParenException e) {
-            e.printStackTrace();
+            System.out.print("Expression contains mismatched parenthesis.");
         } catch (InsufficientValuesException e) {
-            e.printStackTrace();
+            System.out.print("Expression contains insufficient values.");
         } catch (TooManyValuesExpression e) {
-            e.printStackTrace();
+            System.out.print("Expression contains too many.");
         } catch (InvalidArgumentsException e) {
-            e.printStackTrace();
+            System.out.print("Expression contains invalid arguments.");
         }
     }    
 }
