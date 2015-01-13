@@ -6,7 +6,7 @@ Coursework for Data Structures and Algorithms @FMI
 
 It uses [RPN (Reverse Polish Notation)](http://en.wikipedia.org/wiki/Reverse_Polish_notation) and [Shunting-yard algorithm](http://en.wikipedia.org/wiki/Shunting-yard_algorithm).
 
-Supports the following functions:
+Supports the following functions and operators:
 * arithmetic - addition (`+`), substraction (`-`), negation (`-`), multiplication (`*`), division (`/`)
 * advanced - exponentiation (either `pow(x, n)` or `x^n`), nth root (`sqrt(x)` or `sqrtn(x, n)`), logarithms (`log(x, n)`)
 * trigonometric - sine (`sin(x)`), cosine (`cos(x)`), tangent (`tan(x)`), cotangent (`cotan(x)`)
