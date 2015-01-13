@@ -25,11 +25,7 @@ Result is 9.000796326710732
 
 ```
 $> java MiniMathematica "0 ^ 0"
-exceptions.InvalidArgumentsException
-        at objects.Function$5.performEval(Function.java:43)
-        at objects.OperatorBase.eval(OperatorBase.java:34)
-        at components.Calculator.calc(Calculator.java:51)
-        at MiniMathematica.main(MiniMathematica.java:33)
+Expression contains invalid arguments.
 ```
 
 ##How to use
