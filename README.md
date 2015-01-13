@@ -8,7 +8,7 @@ It uses [RPN (Reverse Polish Notation)](http://en.wikipedia.org/wiki/Reverse_Pol
 
 Supports the following functions and operators:
 * arithmetic - addition (`+`), substraction (`-`), negation (`-`), multiplication (`*`), division (`/`)
-* advanced - exponentiation (either `pow(x, n)` or `x^n`), nth root (`sqrt(x)` or `sqrtn(x, n)`), logarithms (`log(x, n)`)
+* advanced - exponentiation (either `pow(x, n)` or `x^n`), n-th root (`sqrt(x)`, `pow(x, 0.5)` or `x^0.5` for square root; `sqrtn(x, n)`, `pow(x, 1/n)` or `x^(1/n)` for n-th root), logarithms (`log(x, n)`)
 * trigonometric - sine (`sin(x)`), cosine (`cos(x)`), tangent (`tan(x)`), cotangent (`cotan(x)`)
 
 ##Exapmles
